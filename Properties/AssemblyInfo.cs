@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("SimpleTrim")]
+[assembly: AssemblyTitle("SparrowTrim")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimpleTrim")]
-[assembly: AssemblyCopyright("Copyright © 2017 Siketyan.")]
+[assembly: AssemblyProduct("SparrowTrim")]
+[assembly: AssemblyCopyright("Copyright © 2017 Siketyan, 2024 M&M")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
