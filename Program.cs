@@ -55,9 +55,9 @@ namespace SparrowTrim
 
             foreach (XmlNode node in doc.DocumentElement.SelectNodes("SubTexture"))
             {
-                padding = Math.Min(padding, Int32.Parse(node.Attributes["x"].Value));
-                maxX = Math.Max(maxX, Int32.Parse(node.Attributes["x"].Value) + Int32.Parse(node.Attributes["width"].Value));
-                maxY = Math.Max(maxY, Int32.Parse(node.Attributes["y"].Value) + Int32.Parse(node.Attributes["height"].Value));
+                padding = Math.Min(padding, (int)float.Parse(node.Attributes["x"].Value));
+                maxX = Math.Max(maxX, (int)float.Parse(node.Attributes["x"].Value) + (int)float.Parse(node.Attributes["width"].Value));
+                maxY = Math.Max(maxY, (int)float.Parse(node.Attributes["y"].Value) + (int)float.Parse(node.Attributes["height"].Value));
             }
 
             maxX += padding;
