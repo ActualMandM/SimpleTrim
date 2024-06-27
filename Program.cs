@@ -1,6 +1,7 @@
 ﻿using System.Drawing.Imaging;
 using System.Drawing;
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System;
 
@@ -46,7 +47,7 @@ namespace SparrowTrim
         public static void ProcessImage(string file)
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load(file + ".xml");
+            doc.LoadXml(Regex.Replace(File.ReadAllText(file + ".xml"), " name=\".*?\"", ""));
 
             int padding = Int32.MaxValue;
             int maxX = Int32.MinValue;
