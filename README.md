@@ -1,5 +1,5 @@
 # SparrowTrim
-A program designed to trim sparrow spritesheets. Mainly for use with Friday Night Funkin' mods.
+A program designed to trim sparrow spritesheets exported from Adobe Animate. Mainly for use with Friday Night Funkin' mods.
 
 [Latest Release](https://github.com/ActualMandM/SparrowTrim/releases/latest)
 
